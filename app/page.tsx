@@ -5,19 +5,19 @@ const WHATSAPP_NUMBER = "573012502846";
 
 const reviews = [
   {
-    name: "María P.",
+    name: "Cristina Díez",
     rating: 5,
-    text: "Los brownies son increíbles y el servicio fue súper atento. Siempre pido para reuniones y todos quedan encantados.",
+    text: "Los productos son muy frescos, se sienten esponjosos y de un muy buen sabor.",
   },
   {
-    name: "Andrés C.",
-    rating: 4,
-    text: "La calidad de los panes y pasteles es excelente. Todo llega bien presentado y con un sabor muy casero.",
+    name: "Guillermo Gómez",
+    rating: 5,
+    text: "Muy buena atención y los productos cumplen a cabalidad lo ofrecido.",
   },
   {
-    name: "Sofía L.",
+    name: "Luisa Giraldo",
     rating: 5,
-    text: "Me encantó la torta de cumpleaños; tenía un sabor delicioso y se veía hermosa. Sin duda volveré a comprar.",
+    text: "Me encantan los croissant son muy frescos y no importa si te los comes calientes o fríos, siempre están deliciosos. No me puedo decidir entre los pasteles de Arequipe y Guayaba, son crocantes, el hojaldre es delicioso y el precio ni se diga!!",
   },
 ];
 
@@ -34,7 +34,7 @@ export default function Home() {
       <header className="nav">
         <a className="logo" href="/">
         <Image
-    src="/images/logo.png"
+    src="/images/logo-dani.svg"
     alt="Dani Repostería y Panadería"
     width={160}
     height={60}
@@ -71,9 +71,14 @@ export default function Home() {
 
       <section className="categories">
         {categories.map((category) => (
-          <a href="#productos" className="category" key={category}>
-            <div className="placeholderImage" />
-            <span>{category}</span>
+          <a
+            href="#productos"
+            className="category"
+            key={category.name}
+            style={{ backgroundImage: `linear-gradient(180deg, rgba(27, 18, 16, 0.12), rgba(27, 18, 16, 0.68)), url('${category.image}')` }}
+          >
+            <div className="placeholderImage" aria-hidden="true" />
+            <span>{category.name}</span>
           </a>
         ))}
       </section>
@@ -84,7 +89,9 @@ export default function Home() {
             <p className="eyebrow">CATÁLOGO</p>
             <h2>Nuestros productos</h2>
           </div>
-          <a href="#contacto">¿Tienes alguna pregunta?</a>
+          <div className="catalogActions">
+            <a href="https://www.canva.com/design/DAHTQgE2c54/oNRsjcTaGm1YaR7lFmmxgQ/view?utm_content=DAHTQgE2c54&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfd73268142" target="_blank" rel="noreferrer">Catálogo completo</a>
+          </div>
         </div>
 
         <div className="grid">

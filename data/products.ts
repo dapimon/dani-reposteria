@@ -7,7 +7,20 @@ export type Product = {
   image: string;
 };
 
-export const categories = ["Repostería", "Panadería", "Especiales"];
+export const categories = [
+  {
+    name: "Repostería",
+    image: "/images/category-reposteria.jpeg",
+  },
+  {
+    name: "Panadería",
+    image: "/images/category-panaderia.jpeg",
+  },
+  {
+    name: "Especiales",
+    image: "/images/category-especial.jpeg",
+  },
+];
 
 export const products: Product[] = [
   {
