@@ -36,26 +36,34 @@ export const products: Product[] = [
   },
   {
     id: 4,
-    name: "Producto especial",
+    name: "Alfajores",
     category: "Especiales",
-    description: "Agrega aquí tu producto destacado y una descripción breve.",
-    price: "$20.000",
-    image: "/images/cookies-rellenas.jpeg"
+    description: "Deliciosos alfajores rellenos de arequipe.",
+    price: "$15.000",
+    image: "/images/alfajor2.jpeg"
   },
   {
     id: 5,
-    name: "Producto especial",
+    name: "Pan de queso",
     category: "Especiales",
-    description: "Agrega aquí tu producto destacado y una descripción breve.",
+    description: "Delicioso pan de queso, suave y lleno de sabor.",
     price: "$20.000",
-    image: "/images/cookies-rellenas.jpeg"
+    image: "/images/panqueso.jpeg"
   },
   {
     id: 6,
-    name: "Producto especial",
+    name: "Pan de chocolate",
     category: "Especiales",
-    description: "Agrega aquí tu producto destacado y una descripción breve.",
+    description: "Delicioso pan de chocolate, suave y relleno cremoso.",
     price: "$20.000",
-    image: "/images/cookies-rellenas.jpeg"
+    image: "/images/pan-chocolate1.jpeg"
+  },
+  {
+    id: 7,
+    name: "Pastel arequipe",
+    category: "Especiales",
+    description: "Delicioso pastel relleno de arequipe.",
+    price: "$20.000",
+    image: "/images/pastel-arequipe1.jpeg"
   }
 ];

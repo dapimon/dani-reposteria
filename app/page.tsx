@@ -55,9 +55,10 @@ export default function Home() {
       <section className="hero">
         <div className="heroOverlay">
           <p className="eyebrow">HECHO CON INTENCIÓN</p>
-          <h1>Productos que<br />merecen ser descubiertos.</h1>
+          <h1 >Repostería y panadería hecha con cariño para disfrutar y compartir.</h1>
+          
           <p className="heroText">
-            Repostería y panadería hecha con cariño para disfrutar y compartir.
+            Productos que merecen ser descubiertos.
           </p>
           <a className="button" href="#productos">Ver productos</a>
         </div>
@@ -133,7 +134,7 @@ Dani es cercanía, sabor y amor en cada creación.
       <section id="reviews" className="section reviews">
         <div className="sectionHeading reviewsHeading">
           <div>
-            <p className="eyebrow">REVIEWS</p>
+            <p className="eyebrow"></p>
             <h2>Lo que dicen nuestros clientes</h2>
           </div>
         </div>
@@ -200,7 +201,7 @@ Dani es cercanía, sabor y amor en cada creación.
 
     <div>
       <Image
-        src="/images/galeria-4.jpg"
+        src="/images/alfajores.jpeg"
         alt="Panadería artesanal"
         fill
       />
@@ -208,7 +209,7 @@ Dani es cercanía, sabor y amor en cada creación.
 
     <div>
       <Image
-        src="/images/galeria-5.jpg"
+        src="/images/galeria-5.jpeg"
         alt="Productos artesanales"
         fill
       />
