@@ -118,11 +118,13 @@ export default function Home() {
       <section id="nosotros" className="about">
         <div className="aboutImage">
           <Image
-      src="/images/marca.jpeg"
-      alt="Dani Repostería y Panadería"
-      fill
-    />
-          </div>
+            src="/images/marca.jpeg"
+            alt="Dani Repostería y Panadería"
+            fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            style={{ objectFit: "contain", objectPosition: "center top" }}
+          />
+        </div>
         <div className="aboutCopy">
           <p className="eyebrow">SOBRE NOSOTROS</p>
           <h2>Una marca cercana, con productos que hablan por sí mismos.</h2>
@@ -134,7 +136,7 @@ export default function Home() {
             Nos inspira lo hecho a mano, la calidad de cada preparación y la ilusión de compartir productos que no solo deleiten, sino que también hagan sentir especial a quien los disfruta.
 Dani es cercanía, sabor y amor en cada creación.
           </p>
-          <a className="textLink" href="#contacto">Conoce nuestra historia →</a>
+          
         </div>
       </section>
 
@@ -234,19 +236,37 @@ Dani es cercanía, sabor y amor en cada creación.
       <footer>
         <div>
           <div className="logo">Dani Repostería y Panadería</div>
-          <p>Catálogo de productos.</p>
+          <span>
+          <a className="footerInstagram" href="https://www.canva.com/design/DAHTQgE2c54/oNRsjcTaGm1YaR7lFmmxgQ/view?utm_content=DAHTQgE2c54&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfd73268142" target="_blank" rel="noreferrer">
+          Catálogo de productos.</a>
+          </span>
+          <span>
+          <a className="footerWhatsApp" href="canva.com/design/DAHUzsYNRg8/h0fnQyHjkMYGlUw6omxwyw/edit?utm_content=DAHUzsYNRg8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noreferrer">
+          Paso a paso de Compra.</a>
+          </span>
         </div>
         <div>
           <strong>Enlaces</strong>
+          <span>
           <a href="#productos">Productos</a>
+          </span>
+          <span>
           <a href="#nosotros">Nosotros</a>
+          </span>
+          <span>
           <a href="#contacto">Contacto</a>
+          </span>
+          
         </div>
         <div>
           <strong>Contacto</strong>
-          <span>WhatsApp</span>
-          <span>Instagram</span>
-          <span>Medellín, Colombia</span>
+          <span>
+          <a className="footerWhatsApp" href={whatsappUrl()} target="_blank" rel="noreferrer">WhatsApp</a>
+          </span>
+          <span>
+          <a className="footerInstagram" href="https://www.instagram.com/dani_reposteriaypanaderia?stkn=N3ZlcXlyejFsY200" target="_blank" rel="noreferrer">Instagram</a>
+          </span>
+          <span>Corregimiento de Santa Elena, Colombia</span>
         </div>
       </footer>
     </main>

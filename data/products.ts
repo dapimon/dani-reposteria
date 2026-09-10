@@ -28,7 +28,7 @@ export const products: Product[] = [
     name: "Cookies rellenas",
     category: "Repostería",
     description: "Galletas de chispas de chocolate, con un delicioso centro líquido de arequipe.",
-    price: "$25.000",
+    price: "$12.000",
     image: "/images/cookies-rellenas.jpg"
   },
   {
@@ -36,7 +36,7 @@ export const products: Product[] = [
     name: "Croissant de queso",
     category: "Panadería",
     description: "Masa delicada, dorada y crujiente por fuera, con un delicioso relleno de queso.",
-    price: "$12.000",
+    price: "12 x $17.000",
     image: "/images/croissant-queso.jpeg"
   },
   {
@@ -44,7 +44,7 @@ export const products: Product[] = [
     name: "Rollo de canela ",
     category: "Panadería",
     description: "Suaves, esponjosos y llenos de ese delicioso aroma a canela que los hace irresistibles,",
-    price: "$20.000",
+    price: "$7.000",
     image: "/images/galeria-3.jpeg"
   },
   {
@@ -52,7 +52,7 @@ export const products: Product[] = [
     name: "Alfajores",
     category: "Especiales",
     description: "Deliciosos alfajores rellenos de arequipe.",
-    price: "$15.000",
+    price: "$3.000",
     image: "/images/alfajor2.jpeg"
   },
   {
@@ -60,7 +60,7 @@ export const products: Product[] = [
     name: "Pan de queso",
     category: "Especiales",
     description: "Delicioso pan de queso, suave y lleno de sabor.",
-    price: "$20.000",
+    price: "$16.000",
     image: "/images/panqueso.jpeg"
   },
   {
@@ -68,15 +68,15 @@ export const products: Product[] = [
     name: "Pan de chocolate",
     category: "Especiales",
     description: "Delicioso pan de chocolate, suave y relleno cremoso.",
-    price: "$20.000",
+    price: "$22.000",
     image: "/images/pan-chocolate1.jpeg"
   },
   {
     id: 7,
-    name: "Pastel arequipe",
+    name: "Pastel hojaldrado",
     category: "Especiales",
     description: "Delicioso pastel relleno de arequipe.",
-    price: "$20.000",
+    price: "$3.000",
     image: "/images/pastel-arequipe1.jpeg"
   }
 ];
