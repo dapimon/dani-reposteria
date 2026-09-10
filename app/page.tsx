@@ -241,7 +241,7 @@ Dani es cercanía, sabor y amor en cada creación.
           Catálogo de productos.</a>
           </span>
           <span>
-          <a className="footerWhatsApp" href="canva.com/design/DAHUzsYNRg8/h0fnQyHjkMYGlUw6omxwyw/edit?utm_content=DAHUzsYNRg8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noreferrer">
+          <a className="footerWhatsApp" href="https://canva.link/am4i468ww343hbx" target="_blank" rel="noreferrer">
           Paso a paso de Compra.</a>
           </span>
         </div>
