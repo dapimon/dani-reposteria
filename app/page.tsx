@@ -267,6 +267,10 @@ Dani es cercanía, sabor y amor en cada creación.
           <a className="footerInstagram" href="https://www.instagram.com/dani_reposteriaypanaderia?stkn=N3ZlcXlyejFsY200" target="_blank" rel="noreferrer">Instagram</a>
           </span>
           <span>Corregimiento de Santa Elena, Colombia</span>
+          <br />
+          <strong>Horario de atención</strong>
+          <span>Lunes a sábado: 8:00 a. m. - 7:00 p. m.</span>
+          <span>Domingos: 9:00 a. m. - 4:00 p. m.</span>
         </div>
       </footer>
     </main>
